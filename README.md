@@ -103,6 +103,6 @@ You can run tests by pressing the ![img.png](OfferOasisTests/public/img.png) arr
 ## Contact
 
 Project
-Link: [https://https://github.com/FoldiKrizsanIldiko/SeleniumEasyTest3SI](https://github.com/FoldiKrizsanIldiko/OfferOasisTest-BDD)
+Link: [https://github.com/FoldiKrizsanIldiko/OfferOasisTest-BDD](https://github.com/FoldiKrizsanIldiko/OfferOasisTest-BDD)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
