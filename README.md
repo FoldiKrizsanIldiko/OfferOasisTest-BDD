@@ -91,16 +91,8 @@ cd <folder where you cloned the repository>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
-6. a. run tests with
-```
-mvn test
-```
-or run tests one by one by declaring specify test
-```
-mvn test -Dtest=src/test/resources/com.codecool.the_recruitables.offer_oasis_tests/login.feature<change this with another test class>
-```
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ezt ellenőrizd!!!!!!!!!!!!!!!!!!!!!
-6. b. If you have installed the IntelliJ you can open project in it
+
+6.  If you have installed the IntelliJ you can open project in it
 In resources file, under com.codecool.the_recruitables.offer_oasis_tests you will find the .features files.
 You can run tests by pressing the ![img.png](OfferOasisTests/public/img.png) arrow next to Feture or next to Scenario. The Feature will run all the Scenarios in the feature.
 
