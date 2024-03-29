@@ -1,16 +1,20 @@
-# CodeCoolElProjecteGrande
+#
+
 ![Contributors](https://img.shields.io/badge/-_Contributors-red.svg?logo=github&style=for-the-badge)
 
 [![Földi Krizsán Ildikó](https://img.shields.io/badge/F%C3%B6ldi%20Krizs%C3%A1n%20Ildik%C3%B3-blue.svg?logo=github)](https://github.com/FoldiKrizsanIldiko)
+[![Balázs Oltvölgyi](https://img.shields.io/badge/Bal%C3%A1zs%20Oltv%C3%B6lgyi-blue.svg?logo=github)](https://github.com/balazs-oltvolgyi)
 
 ![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)
 
 [![Static Badge](https://img.shields.io/badge/-_%20F%C3%B6ldi%20Krizs%C3%A1n%20Ildik%C3%B3-grey.svg?logo=linkedin&colorB=555)](https://www.linkedin.com/in/ildiko-foldi-krizsan/)
+[![Static Badge](https://img.shields.io/badge/-_Bal%C3%A1zs%20Oltv%C3%B6lgyi-grey.svg?logo=linkedin&colorB=555)](https://www.linkedin.com/in/balazs-o/)
+
 
 <br />
 <div align="center">
-     <img src="src/public/logo.png" alt="Logo">
-<h3 align="center">Offer Oasis Test Project</h3>
+    <img src="OfferOasisTests/public/img_1.png" alt="Logo">
+<h1 align="center">Offer Oasis Test Project</h1>
   <p align="center">
 This project is for testing functionality of Offer Oasis webpage
 </p>
@@ -41,19 +45,12 @@ This project is for testing functionality of Offer Oasis webpage
 ## About The Project
 
 <p>
-Offer Oasis is webshop application developed by students of Codecool. The project focuses on imitating a fully functional webshop.
-This project was created to test the functionality of Offer Oasis website. 
-
-It was a team work from tester side, and a collaboration with the developer team. 
-It helped to practice assertive communication.
--ketten dolgoztunk rajta
--együtt kellett dolgozni a frontend fejlesztőkkel
--Agil scrum - meg kellene említeni
--a user story írása közben felmerültek olyan igények amiket később még le kell fejleszteni
-
-a tesztek Gherkin nyelven íródtak
-Cucumber futtassa at teszteket,és Selenium ami kezeli az oldalt...
-az oldalakhoz Page Factory metódust használtunk.
+Offer Oasis is a webshop application developed by students of Codecool, meticulously crafted to imitate a fully functional webshop.
+This collaborative project involved both testing and development teams, fostering assertive communication and Agile Scrum methodologies. 
+Working closely with frontend developers, we tackled user stories, identifying needs for future enhancements. 
+Our tests, scripted in Gherkin, were executed using Cucumber and Selenium, with Page Factory methods for page management.
+Explore our project  <a href="https://docs.google.com/presentation/d/1BIPeVZzc3X9EU8VHsQtCdl92S0v3CvdJF8a3Ku0Tt1I/edit#slide=id.g13ef5196189_4_0" style="color: yellowgreen; font-size: 20px"> presentation slides </a> 
+and view the <a href="https://youtu.be/Pm8aobQdhHw" style="color: yellowgreen; font-size: 20px"> video showcasing </a>test executions 
 
 </p>
 
@@ -66,7 +63,7 @@ az oldalakhoz Page Factory metódust használtunk.
 * ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 * ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 * ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
-* cucumber
+* ![Cucumber](https://img.shields.io/badge/Cucumber-23C552?style=for-the-badge&logo=Cucumber&logoColor=white)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -76,15 +73,19 @@ Please follow next steps to run the tests.
 
 ### Installation
 
-1. Mivel csak lokálisan futtatható a weblap, ezért először le kell klónozni a OfferOasist. A beindításához részletes leírást találsz a projekt readme filehoz
-2. Clone this repository:
+1. Since the webpage can only be run locally, you need to first clone <a href="https://github.com/balazs-oltvolgyi/CodeCoolElProjecteGrande">OfferOasis</a>. For instructions on how to start it, refer to the detailed description in the project's readme file.
+2. install maven
+   download it from here : https://maven.apache.org/download.cgi
+3. follow the instructions from this page: https://maven.apache.org/install.html
+4. Clone this repository:
 ```sh
    git clone https://github.com/FoldiKrizsanIldiko/OfferOasisTest-BDD.git
    ```
-3. install maven
-4download it from here : https://maven.apache.org/download.cgi
-5. follow the instructions from this page: https://maven.apache.org/install.html
-
+5. To navigate into the folder, use the following command:
+```
+cd <folder where you cloned the repository>
+```
+   
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,7 +102,7 @@ mvn test -Dtest=src/test/resources/com.codecool.the_recruitables.offer_oasis_tes
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ezt ellenőrizd!!!!!!!!!!!!!!!!!!!!!
 6. b. If you have installed the IntelliJ you can open project in it
 In resources file, under com.codecool.the_recruitables.offer_oasis_tests you will find the .features files.
-You can run tests by pressing the ![img.png](img.png) arrow next to Feture or next to Scenario. The Feature will run all the Scenarios in the feature.
+You can run tests by pressing the ![img.png](OfferOasisTests/public/img.png) arrow next to Feture or next to Scenario. The Feature will run all the Scenarios in the feature.
 
 7. The Selenium will open new page in Chrome browser, open the Offer Oasis webshop page, and simulate actions described in Scenario.
 
