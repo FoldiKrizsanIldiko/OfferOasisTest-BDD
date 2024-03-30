@@ -1,3 +1,4 @@
+@cart
 Feature: Cart features
   I can change the number of chosen items,
   I can place an order,

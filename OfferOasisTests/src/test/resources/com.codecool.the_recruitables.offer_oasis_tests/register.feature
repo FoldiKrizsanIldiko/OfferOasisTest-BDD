@@ -1,3 +1,4 @@
+@register
 Feature: Register
   I want to register an account on Offer Oasis site
 
